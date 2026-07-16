@@ -1,0 +1,2370 @@
+{
+  "capturedAt": "2026-07-16T12:22:41.283Z",
+  "runs": {
+    "L01": [
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:22:41.284Z",
+        "message": "SCAN_20260703_0091.pdf"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:22:41.284Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:22:41.284Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "award_notice",
+          "confidence": 0.98,
+          "rationale": "The letter explicitly states a fully favorable determination and disability benefits have been awarded, matching the award_notice category."
+        },
+        "tokens": {
+          "input": 1162,
+          "output": 63
+        },
+        "durationMs": 3058,
+        "ts": "2026-07-16T12:22:47.400Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Marcus Lee",
+          "dob": "1969-09-30",
+          "ssnLast4": "8812",
+          "docDate": "2026-07-01"
+        },
+        "tokens": {
+          "input": 852,
+          "output": 52
+        },
+        "durationMs": 3058,
+        "ts": "2026-07-16T12:22:47.400Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:22:47.400Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c05",
+          "matterId": "M-2045",
+          "clientName": "Marcus Lee",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:22:47.401Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:22:47.401Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "A favorable decision sets benefit amounts and appeal windows; a human confirms before anything is filed or calendared."
+        },
+        "ts": "2026-07-16T12:22:47.401Z"
+      },
+      {
+        "runId": "run_L01_mrnhbudg",
+        "letterId": "L01",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:22:47.401Z",
+        "message": "diverted to review"
+      }
+    ],
+    "L02": [
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:22:47.401Z",
+        "message": "SCAN_20260703_0104.pdf"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:22:47.401Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:22:47.401Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "initial_denial",
+          "confidence": 0.92,
+          "rationale": "The letter is titled a Notice of Disallowance on an application filed this year, stating the claimant's condition is not severe enough, and instructs filing a request for reconsideration, indicating this is the denial of the initial application."
+        },
+        "tokens": {
+          "input": 1159,
+          "output": 96
+        },
+        "durationMs": 7022,
+        "ts": "2026-07-16T12:23:01.444Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Anthony Delgado",
+          "dob": "1977-12-15",
+          "ssnLast4": "5590",
+          "docDate": "2026-06-29"
+        },
+        "tokens": {
+          "input": 849,
+          "output": 53
+        },
+        "durationMs": 7022,
+        "ts": "2026-07-16T12:23:01.444Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:01.444Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c07",
+          "matterId": "M-2047",
+          "clientName": "Anthony Delgado",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:01.445Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:01.445Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "Denials start a hard 60-day appeal clock; misfiling one can cost the claimant their case."
+        },
+        "ts": "2026-07-16T12:23:01.445Z"
+      },
+      {
+        "runId": "run_L02_mrnhbz3d",
+        "letterId": "L02",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:01.445Z",
+        "message": "diverted to review"
+      }
+    ],
+    "L03": [
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:01.445Z",
+        "message": "SCAN_20260706_0038.pdf"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:01.445Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:01.445Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "recon_denial",
+          "confidence": 0.98,
+          "rationale": "The letter explicitly states this is a reconsideration determination that affirms the initial denial after a second reviewer's independent look at the file.'"
+        },
+        "tokens": {
+          "input": 1155,
+          "output": 71
+        },
+        "durationMs": 1595,
+        "ts": "2026-07-16T12:23:04.634Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Priya Ramaswamy",
+          "dob": "1985-04-22",
+          "ssnLast4": "6673",
+          "docDate": "2026-07-02"
+        },
+        "tokens": {
+          "input": 845,
+          "output": 55
+        },
+        "durationMs": 1595,
+        "ts": "2026-07-16T12:23:04.634Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:04.634Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c08",
+          "matterId": "M-2048",
+          "clientName": "Priya Ramaswamy",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:04.635Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:04.635Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "Reconsideration denials start the hearing-request clock; a human verifies the deadline."
+        },
+        "ts": "2026-07-16T12:23:04.635Z"
+      },
+      {
+        "runId": "run_L03_mrnhc9xh",
+        "letterId": "L03",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:04.635Z",
+        "message": "diverted to review"
+      }
+    ],
+    "L04": [
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:04.635Z",
+        "message": "SCAN_20260707_0117.pdf"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:04.635Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:04.635Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "hearing_notice",
+          "confidence": 0.98,
+          "rationale": "The letter explicitly schedules a hearing before an administrative law judge with a specific date, time, and format."
+        },
+        "tokens": {
+          "input": 1156,
+          "output": 61
+        },
+        "durationMs": 4869,
+        "ts": "2026-07-16T12:23:14.372Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "R0bert Castiilo",
+          "dob": "1974-03-12",
+          "ssnLast4": "4821",
+          "docDate": "2026-07-06"
+        },
+        "tokens": {
+          "input": 846,
+          "output": 54
+        },
+        "durationMs": 4869,
+        "ts": "2026-07-16T12:23:14.372Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:14.372Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c01",
+          "matterId": "M-2041",
+          "clientName": "Robert Castillo",
+          "method": "fuzzy",
+          "distance": 2,
+          "score": 0.87
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:14.373Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:14.373Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:14.373Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:14.373Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Castillo_Robert_M-2041_HearingNotice_2026-07-06.pdf",
+          "folder": "04 Hearings",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "Calendar hearing date; notify claimant"
+        },
+        "ts": "2026-07-16T12:23:14.373Z"
+      },
+      {
+        "runId": "run_L04_mrnhcce3",
+        "letterId": "L04",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:14.373Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L05": [
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:14.373Z",
+        "message": "SCAN_20260707_0129.pdf"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:14.373Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:14.373Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "appeal_deadline",
+          "confidence": 0.94,
+          "rationale": "The letter explicitly warns the claimant that the deadline to file an appeal of the hearing decision is approaching and specifies a firm cutoff date."
+        },
+        "tokens": {
+          "input": 1121,
+          "output": 77
+        },
+        "durationMs": 1870,
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Terrence Boothe",
+          "dob": "1963-08-11",
+          "ssnLast4": "9021",
+          "docDate": "2026-07-05"
+        },
+        "tokens": {
+          "input": 811,
+          "output": 53
+        },
+        "durationMs": 1870,
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c09",
+          "matterId": "M-2049",
+          "clientName": "Terrence Boothe",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 0,
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "Deadline warnings are time-critical; a human triages immediately rather than trusting an auto-route."
+        },
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L05_mrnhcjwl",
+        "letterId": "L05",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:18.113Z",
+        "message": "diverted to review"
+      }
+    ],
+    "L06": [
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:18.113Z",
+        "message": "SCAN_20260708_0061.pdf"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:18.113Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "good_cause",
+          "confidence": 0.97,
+          "rationale": "The letter explicitly asks the claimant to establish good cause for a late-filed request for review, which is the defining feature of a good_cause notice."
+        },
+        "tokens": {
+          "input": 1150,
+          "output": 71
+        },
+        "durationMs": 1645,
+        "ts": "2026-07-16T12:23:21.403Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Jenifer Okonkwo-Hale",
+          "dob": "1982-05-19",
+          "ssnLast4": "3356",
+          "docDate": "2026-07-06"
+        },
+        "tokens": {
+          "input": 840,
+          "output": 60
+        },
+        "durationMs": 1645,
+        "ts": "2026-07-16T12:23:21.403Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:21.403Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c04",
+          "matterId": "M-2044",
+          "clientName": "Jennifer Okonkwo-Hale",
+          "method": "fuzzy",
+          "distance": 1,
+          "score": 0.95
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:21.404Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:21.404Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "Good-cause letters have no clean bucket and turn on legal judgment; they go straight to the supervising attorney."
+        },
+        "ts": "2026-07-16T12:23:21.404Z"
+      },
+      {
+        "runId": "run_L06_mrnhcmsh",
+        "letterId": "L06",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:21.404Z",
+        "message": "diverted to review"
+      }
+    ],
+    "L07": [
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:21.404Z",
+        "message": "SCAN_20260709_0044.pdf"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:21.404Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:21.404Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "ce_appointment",
+          "confidence": 0.99,
+          "rationale": "The letter explicitly schedules a consultative examination with a physician, including date, time, and provider details."
+        },
+        "tokens": {
+          "input": 1151,
+          "output": 59
+        },
+        "durationMs": 1427,
+        "ts": "2026-07-16T12:23:24.257Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Alicia Fenwick",
+          "dob": "1994-02-27",
+          "ssnLast4": "3178",
+          "docDate": "2026-07-07"
+        },
+        "tokens": {
+          "input": 841,
+          "output": 54
+        },
+        "durationMs": 1427,
+        "ts": "2026-07-16T12:23:24.257Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:24.257Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c10",
+          "matterId": "M-2050",
+          "clientName": "Alicia Fenwick",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:24.258Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:24.258Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:24.258Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:24.258Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Fenwick_Alicia_M-2050_CeAppointment_2026-07-07.pdf",
+          "folder": "07 CE Exams",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "Calendar exam; send claimant reminder"
+        },
+        "ts": "2026-07-16T12:23:24.258Z"
+      },
+      {
+        "runId": "run_L07_mrnhcpbw",
+        "letterId": "L07",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:24.258Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L08": [
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:24.258Z",
+        "message": "SCAN_20260709_0052.pdf"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:24.258Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:24.258Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "records_request",
+          "confidence": 0.98,
+          "rationale": "The letter explicitly requests updated medical records, treatment notes, or function reports from the representative to develop the claim."
+        },
+        "tokens": {
+          "input": 1089,
+          "output": 61
+        },
+        "durationMs": 1285,
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "David Okafor",
+          "dob": "1971-06-05",
+          "ssnLast4": "4409",
+          "docDate": "2026-07-07"
+        },
+        "tokens": {
+          "input": 779,
+          "output": 50
+        },
+        "durationMs": 1285,
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c11",
+          "matterId": "M-2051",
+          "clientName": "David Okafor",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 0,
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Okafor_David_M-2051_RecordsRequest_2026-07-07.pdf",
+          "folder": "08 Records Requests",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "Forward to records clerk; log the request"
+        },
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L08_mrnhcrj6",
+        "letterId": "L08",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:26.827Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L09": [
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:26.827Z",
+        "message": "SCAN_20260710_0073.pdf"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:26.827Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "benefit_statement",
+          "confidence": 0.97,
+          "rationale": "The letter explicitly labels itself a 'Benefit Payment Statement' summarizing routine payments with no action required, matching the benefit_statement category."
+        },
+        "tokens": {
+          "input": 1105,
+          "output": 77
+        },
+        "durationMs": 1911,
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Latoya Simmons",
+          "dob": "1983-01-30",
+          "ssnLast4": "8143",
+          "docDate": "2026-07-08"
+        },
+        "tokens": {
+          "input": 795,
+          "output": 53
+        },
+        "durationMs": 1911,
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c16",
+          "matterId": "M-2056",
+          "clientName": "Latoya Simmons",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 0,
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Simmons_Latoya_M-2056_BenefitStatement_2026-07-08.pdf",
+          "folder": "09 Financial",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "File to financial folder"
+        },
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L09_mrnhctij",
+        "letterId": "L09",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:30.649Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L10": [
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:30.649Z",
+        "message": "SCAN_20260710_0088.pdf"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:30.649Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "overpayment_notice",
+          "confidence": 0.99,
+          "rationale": "The letter explicitly is titled 'Notice of Overpayment' and describes an overpaid amount, the reason, and options to waive or appeal, matching the overpayment_notice category."
+        },
+        "tokens": {
+          "input": 1138,
+          "output": 88
+        },
+        "durationMs": 1550,
+        "ts": "2026-07-16T12:23:33.749Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Sandra Mikkelsen",
+          "dob": "1980-10-14",
+          "ssnLast4": "7756",
+          "docDate": "2026-07-08"
+        },
+        "tokens": {
+          "input": 828,
+          "output": 56
+        },
+        "durationMs": 1550,
+        "ts": "2026-07-16T12:23:33.749Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:33.749Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c12",
+          "matterId": "M-2052",
+          "clientName": "Sandra Mikkelsen",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:33.750Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:33.750Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "Overpayment notices demand money back and carry their own appeal rights; a human reviews before filing."
+        },
+        "ts": "2026-07-16T12:23:33.750Z"
+      },
+      {
+        "runId": "run_L10_mrnhcwgp",
+        "letterId": "L10",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:33.750Z",
+        "message": "diverted to review"
+      }
+    ],
+    "L11": [
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:33.750Z",
+        "message": "SCAN_20260711_0019.pdf"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:33.750Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:33.750Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "fee_authorization",
+          "confidence": 0.98,
+          "rationale": "The letter explicitly is a 'Notice of Fee Authorization' confirming the representative's approved fee amount withheld from past-due benefits."
+        },
+        "tokens": {
+          "input": 1099,
+          "output": 75
+        },
+        "durationMs": 1755,
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Nathan Ostrowski",
+          "dob": "1987-06-23",
+          "ssnLast4": "1174",
+          "docDate": "2026-07-09"
+        },
+        "tokens": {
+          "input": 789,
+          "output": 55
+        },
+        "durationMs": 1755,
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c21",
+          "matterId": "M-2061",
+          "clientName": "Nathan Ostrowski",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 0,
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Ostrowski_Nathan_M-2061_FeeAuthorization_2026-07-09.pdf",
+          "folder": "11 Fees",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "File to fees folder; notify billing"
+        },
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L11_mrnhcyuu",
+        "letterId": "L11",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:37.260Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L12": [
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:37.260Z",
+        "message": "SCAN_20260711_0033.pdf"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:37.260Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "hearing_notice",
+          "confidence": 0.98,
+          "rationale": "The letter explicitly schedules a hearing before an administrative law judge on a specific date and time, matching the hearing_notice category."
+        },
+        "tokens": {
+          "input": 1112,
+          "output": 69
+        },
+        "durationMs": 1332,
+        "ts": "2026-07-16T12:23:39.924Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Curtis Yarnada",
+          "dob": "1966-03-03",
+          "ssnLast4": "1284",
+          "docDate": "2026-07-10"
+        },
+        "tokens": {
+          "input": 802,
+          "output": 54
+        },
+        "durationMs": 1332,
+        "ts": "2026-07-16T12:23:39.924Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:39.924Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c13",
+          "matterId": "M-2053",
+          "clientName": "Curtis Yamada",
+          "method": "fuzzy",
+          "distance": 2,
+          "score": 0.86
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:39.925Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:39.925Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:39.925Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:39.925Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Yamada_Curtis_M-2053_HearingNotice_2026-07-10.pdf",
+          "folder": "04 Hearings",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "Calendar hearing date; notify claimant"
+        },
+        "ts": "2026-07-16T12:23:39.925Z"
+      },
+      {
+        "runId": "run_L12_mrnhd1kc",
+        "letterId": "L12",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:39.925Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L13": [
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:39.925Z",
+        "message": "SCAN_20260712_0027.pdf"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:39.925Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:39.925Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "ce_appointment",
+          "confidence": 0.99,
+          "rationale": "The letter explicitly schedules a consultative examination with a date, time, and provider for the claimant."
+        },
+        "tokens": {
+          "input": 1133,
+          "output": 59
+        },
+        "durationMs": 1295,
+        "ts": "2026-07-16T12:23:42.515Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Vincent Petrakls",
+          "dob": "1975-05-25",
+          "ssnLast4": "2267",
+          "docDate": "2026-07-10"
+        },
+        "tokens": {
+          "input": 823,
+          "output": 54
+        },
+        "durationMs": 1295,
+        "ts": "2026-07-16T12:23:42.515Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:42.515Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c17",
+          "matterId": "M-2057",
+          "clientName": "Vincent Petrakis",
+          "method": "fuzzy",
+          "distance": 1,
+          "score": 0.94
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:42.516Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:42.516Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:42.516Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:42.516Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Petrakis_Vincent_M-2057_CeAppointment_2026-07-10.pdf",
+          "folder": "07 CE Exams",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "Calendar exam; send claimant reminder"
+        },
+        "ts": "2026-07-16T12:23:42.516Z"
+      },
+      {
+        "runId": "run_L13_mrnhd3md",
+        "letterId": "L13",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:42.516Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L14": [
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:42.516Z",
+        "message": "SCAN_20260712_0055.pdf"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:42.516Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:42.516Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "records_request",
+          "confidence": 0.97,
+          "rationale": "The letter explicitly requests submission of medical treatment records, hospital records, imaging, and provider notes within a specified timeframe, matching the records_request category."
+        },
+        "tokens": {
+          "input": 1080,
+          "output": 75
+        },
+        "durationMs": 1286,
+        "ts": "2026-07-16T12:23:45.088Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Hannah Brightwater",
+          "dob": "1996-09-12",
+          "ssnLast4": "4472",
+          "docDate": "2026-07-11"
+        },
+        "tokens": {
+          "input": 770,
+          "output": 54
+        },
+        "durationMs": 1286,
+        "ts": "2026-07-16T12:23:45.088Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:45.088Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c18",
+          "matterId": "M-2058",
+          "clientName": "Hannah Brightwater",
+          "method": "exact",
+          "distance": 0,
+          "score": 1
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:45.089Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:45.089Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:45.089Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:45.089Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Brightwater_Hannah_M-2058_RecordsRequest_2026-07-11.pdf",
+          "folder": "08 Records Requests",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "Forward to records clerk; log the request"
+        },
+        "ts": "2026-07-16T12:23:45.089Z"
+      },
+      {
+        "runId": "run_L14_mrnhd5mc",
+        "letterId": "L14",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:45.089Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L15": [
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:45.089Z",
+        "message": "SCAN_20260713_0012.pdf"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:45.089Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:45.089Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "benefit_statement",
+          "confidence": 0.94,
+          "rationale": "The letter is a routine summary of benefit payments made with no adjustments, explicitly labeled a 'Benefit Payment Statement' requiring no response."
+        },
+        "tokens": {
+          "input": 1093,
+          "output": 78
+        },
+        "durationMs": 1350,
+        "ts": "2026-07-16T12:23:47.788Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "0mar Haddad",
+          "dob": "1979-02-16",
+          "ssnLast4": "3309",
+          "docDate": "2026-07-11"
+        },
+        "tokens": {
+          "input": 783,
+          "output": 52
+        },
+        "durationMs": 1350,
+        "ts": "2026-07-16T12:23:47.788Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:47.788Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c19",
+          "matterId": "M-2059",
+          "clientName": "Omar Haddad",
+          "method": "fuzzy",
+          "distance": 1,
+          "score": 0.91
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:47.789Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:47.789Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:47.789Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:47.789Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Haddad_Omar_M-2059_BenefitStatement_2026-07-11.pdf",
+          "folder": "09 Financial",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "File to financial folder"
+        },
+        "ts": "2026-07-16T12:23:47.789Z"
+      },
+      {
+        "runId": "run_L15_mrnhd7lt",
+        "letterId": "L15",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:47.789Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L16": [
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:47.789Z",
+        "message": "SCAN_20260713_0029.pdf"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:47.789Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:47.789Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "hearing_notice",
+          "confidence": 0.99,
+          "rationale": "The letter is a formal notice scheduling a hearing before an administrative law judge with a specific date, time, and video format."
+        },
+        "tokens": {
+          "input": 1108,
+          "output": 65
+        },
+        "durationMs": 1593,
+        "ts": "2026-07-16T12:23:50.975Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Maria Gonzalez",
+          "dob": "1988-07-02",
+          "ssnLast4": "1190",
+          "docDate": "2026-07-11"
+        },
+        "tokens": {
+          "input": 798,
+          "output": 54
+        },
+        "durationMs": 1593,
+        "ts": "2026-07-16T12:23:50.975Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:50.975Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": true,
+          "clientId": "c02",
+          "matterId": "M-2042",
+          "clientName": "Maria Gonzales",
+          "method": "fuzzy+dob",
+          "distance": 1,
+          "score": 0.93,
+          "note": "2 name candidates; DOB broke the tie"
+        },
+        "durationMs": 1,
+        "ts": "2026-07-16T12:23:50.976Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:50.976Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": false,
+          "reason": null
+        },
+        "ts": "2026-07-16T12:23:50.976Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "start",
+        "ts": "2026-07-16T12:23:50.976Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "route",
+        "status": "complete",
+        "payload": {
+          "renamedTo": "Gonzales_Maria_M-2042_HearingNotice_2026-07-11.pdf",
+          "folder": "04 Hearings",
+          "archivedTo": "Archive/2026-07 (July)",
+          "followUp": "Calendar hearing date; notify claimant"
+        },
+        "ts": "2026-07-16T12:23:50.976Z"
+      },
+      {
+        "runId": "run_L16_mrnhd9ot",
+        "letterId": "L16",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:50.976Z",
+        "message": "auto-routed"
+      }
+    ],
+    "L17": [
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:50.976Z",
+        "message": "SCAN_20260714_0007.pdf"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:50.976Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:50.976Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "initial_denial",
+          "confidence": 0.96,
+          "rationale": "The notice denies the claimant's initial disability application and offers a right to request reconsideration within 60 days, consistent with an initial denial letter."
+        },
+        "tokens": {
+          "input": 1083,
+          "output": 72
+        },
+        "durationMs": 1482,
+        "ts": "2026-07-16T12:23:53.939Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": "Zachary Ellsworth",
+          "dob": "1990-04-03",
+          "ssnLast4": "0031",
+          "docDate": "2026-07-12"
+        },
+        "tokens": {
+          "input": 773,
+          "output": 55
+        },
+        "durationMs": 1482,
+        "ts": "2026-07-16T12:23:53.939Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:23:53.939Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": false,
+          "clientId": null,
+          "matterId": null,
+          "clientName": null,
+          "method": "none",
+          "distance": 9,
+          "score": 0.47,
+          "note": "no client above match threshold"
+        },
+        "durationMs": 0,
+        "ts": "2026-07-16T12:23:53.939Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:23:53.939Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "Denials start a hard 60-day appeal clock; misfiling one can cost the claimant their case."
+        },
+        "ts": "2026-07-16T12:23:53.939Z"
+      },
+      {
+        "runId": "run_L17_mrnhdc5c",
+        "letterId": "L17",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:53.939Z",
+        "message": "diverted to review"
+      }
+    ],
+    "L18": [
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "ingest",
+        "status": "complete",
+        "ts": "2026-07-16T12:23:53.940Z",
+        "message": "SCAN_20260714_0021.pdf"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "start",
+        "ts": "2026-07-16T12:23:53.940Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "start",
+        "ts": "2026-07-16T12:23:53.940Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "classify",
+        "status": "complete",
+        "payload": {
+          "category": "other",
+          "confidence": 0.65,
+          "rationale": "The letter is a vague administrative acknowledgment about record updates with no specific action, deadline, denial, award, or appointment mentioned, so it doesn't clearly fit any specific category."
+        },
+        "tokens": {
+          "input": 1045,
+          "output": 83
+        },
+        "durationMs": 3460,
+        "ts": "2026-07-16T12:24:00.859Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "extract",
+        "status": "complete",
+        "payload": {
+          "claimantName": null,
+          "dob": null,
+          "ssnLast4": "5563",
+          "docDate": "2026-07-12"
+        },
+        "tokens": {
+          "input": 735,
+          "output": 41
+        },
+        "durationMs": 3460,
+        "ts": "2026-07-16T12:24:00.859Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "start",
+        "ts": "2026-07-16T12:24:00.859Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "match",
+        "status": "complete",
+        "payload": {
+          "matched": false,
+          "clientId": null,
+          "matterId": null,
+          "clientName": null,
+          "method": "none",
+          "distance": null,
+          "score": null,
+          "note": "no claimant name extracted"
+        },
+        "durationMs": 0,
+        "ts": "2026-07-16T12:24:00.859Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "start",
+        "ts": "2026-07-16T12:24:00.859Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "gate",
+        "status": "complete",
+        "payload": {
+          "divert": true,
+          "reason": "Anything the classifier is unsure of, or that fits no category, is held for a human rather than force-fit into a bucket."
+        },
+        "ts": "2026-07-16T12:24:00.859Z"
+      },
+      {
+        "runId": "run_L18_mrnhdefo",
+        "letterId": "L18",
+        "mode": "recorded",
+        "stage": "done",
+        "status": "complete",
+        "ts": "2026-07-16T12:24:00.859Z",
+        "message": "diverted to review"
+      }
+    ]
+  }
+}
