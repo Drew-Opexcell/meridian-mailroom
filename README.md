@@ -54,6 +54,15 @@ everything after is deterministic, pure functions over the data. One async gener
 (`lib/pipeline.ts`) drives the whole thing, so the live path and the recording script emit
 the exact same events.
 
+**What the model does, and what it doesn't.** The LLM has exactly one job here: read a
+letter and return a category and some fields, behind a structured-output boundary. It makes
+no decisions about what happens next. Everything that makes this a system is ordinary code
+in [`lib/`](lib): the [Damerau-Levenshtein matcher](lib/fuzzy.ts) (hand-written and
+[tested](lib/fuzzy.test.ts)), the [review gate](lib/pipeline.ts), the routing, the audit
+log, and the pipeline that wires them together. The interesting engineering is in treating
+the model as one unreliable component and building the deterministic, reviewable machine
+around it.
+
 ## Two modes
 
 - **Recorded (default).** The demo replays a real pipeline run, captured by executing the
@@ -91,8 +100,7 @@ that gap is the point:
   quietly break a no-code flow.
 
 That layer, the integrations, the hardening, the operation, is the work. This repo
-deliberately does not include it. If your firm has mail piling up, that is what
-[Opexcell](https://opexcell.com) builds.
+deliberately does not include it.
 
 ## License
 
