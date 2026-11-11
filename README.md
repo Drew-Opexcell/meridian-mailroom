@@ -5,11 +5,8 @@ Incoming scanned mail is classified, has its identifiers extracted, is fuzzy-mat
 the right client, and is routed automatically, except for high-stakes letters, which are
 held for a human before anything happens to them.
 
-**Live demo:** https://meridian-mailroom.vercel.app
 **Everything here is synthetic.** Fictional firm, fictional agency, invented people, no
 real client data.
-
-![Meridian Mailroom](docs/demo.png)
 
 ## Why this exists
 
@@ -63,25 +60,14 @@ log, and the pipeline that wires them together. The interesting engineering is i
 the model as one unreliable component and building the deterministic, reviewable machine
 around it.
 
-## Two modes
-
-- **Recorded (default).** The demo replays a real pipeline run, captured by executing the
-  live pipeline over all 18 letters. The classifications, token counts, and durations you
-  see are the real ones, replayed at a readable pace, not mocks. This keeps the public
-  demo from burning API credits.
-- **Live.** If the deployment has an API key, a toggle appears and you can run a letter
-  through Claude in real time. Live runs are capped per instance per day; the letters are
-  fixed server-side, so the only thing a visitor controls is which of the 18 to run.
-
 ## Running it
 
 ```bash
 npm install
-npm run dev        # recorded mode works with no key
 npm test           # the fuzzy matcher's tests
 ```
 
-To enable live mode locally, set `ANTHROPIC_API_KEY`. To re-capture the recorded runs
+To re-capture the recorded runs
 after changing letters or prompts: `ANTHROPIC_API_KEY=... npx tsx scripts/record-runs.ts`.
 
 ## What the production version adds
