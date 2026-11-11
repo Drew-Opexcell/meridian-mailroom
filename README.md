@@ -47,15 +47,15 @@ flowchart LR
 ```
 
 The classify and extract stages call Claude (`claude-sonnet-5`) with structured output;
-everything after is deterministic, pure functions over the data. One async generator
-(`lib/pipeline.ts`) drives the whole thing, so the live path and the recording script emit
-the exact same events.
+everything after is deterministic, pure functions over the data. One function
+(`run_pipeline` in `pipeline.py`) drives the whole thing, so the live path and the recording
+script produce the exact same events.
 
 **What the model does, and what it doesn't.** The LLM has exactly one job here: read a
 letter and return a category and some fields, behind a structured-output boundary. It makes
 no decisions about what happens next. Everything that makes this a system is ordinary code
-in [`lib/`](lib): the [Damerau-Levenshtein matcher](lib/fuzzy.ts) (hand-written and
-[tested](lib/fuzzy.test.ts)), the [review gate](lib/pipeline.ts), the routing, the audit
+in plain Python: the [Damerau-Levenshtein matcher](fuzzy.py) (hand-written and
+[tested](test_fuzzy.py)), the [review gate](pipeline.py), the routing, the audit
 log, and the pipeline that wires them together. The interesting engineering is in treating
 the model as one unreliable component and building the deterministic, reviewable machine
 around it.
@@ -63,12 +63,14 @@ around it.
 ## Running it
 
 ```bash
-npm install
-npm test           # the fuzzy matcher's tests
+python main.py              # every letter, using the recorded answers
+python main.py L04          # one letter, every step shown
+python -m unittest          # the fuzzy matcher's tests
 ```
 
-To re-capture the recorded runs
-after changing letters or prompts: `ANTHROPIC_API_KEY=... npx tsx scripts/record-runs.ts`.
+To ask Claude for real, `pip install -r requirements.txt`, set `ANTHROPIC_API_KEY`, and add
+`--live`. To re-capture the recorded runs after changing letters or prompts:
+`python record_runs.py`.
 
 ## What the production version adds
 

@@ -1,128 +1,128 @@
 [
   {
     "id": "L01",
-    "scanFilename": "SCAN_20260703_0091.pdf",
-    "receivedAt": "2026-07-03T09:14:00Z",
-    "letterheadStyle": "bda",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Award\n\nClaimant: Marcus Lee\nDate of Birth: September 30, 1969\nClaim No: BDA-4471-8812\nDate: July 1, 2026\n\nDear Mr. Lee:\n\nWe are pleased to inform you that a fully favorable determination has been reached on your claim for disability benefits. The Bureau has found that you have been disabled within the meaning of the Act since your alleged onset date.\n\nYour monthly benefit amount and the date of your first payment will be set out in a separate statement to follow. Past-due benefits, if any, will be calculated and released after that statement issues.\n\nIf you disagree with any part of this determination, including the onset date or benefit computation, you may request review. Please retain this notice for your records.\n\nBureau of Disability Adjudication\nRegion 6 Processing Center"
+    "scan_filename": "SCAN_20260703_0091.pdf",
+    "received_at": "2026-07-03T09:14:00Z",
+    "letterhead_style": "bda",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Award\n\nClaimant: Marcus Lee\nDate of Birth: September 30, 1969\nClaim No: BDA-4471-8812\nDate: July 1, 2026\n\nDear Mr. Lee:\n\nWe are pleased to inform you that a fully favorable determination has been reached on your claim for disability benefits. The Bureau has found that you have been disabled within the meaning of the Act since your alleged onset date.\n\nYour monthly benefit amount and the date of your first payment will be set out in a separate statement to follow. Past-due benefits, if any, will be calculated and released after that statement issues.\n\nIf you disagree with any part of this determination, including the onset date or benefit computation, you may request review. Please retain this notice for your records.\n\nBureau of Disability Adjudication\nRegion 6 Processing Center"
   },
   {
     "id": "L02",
-    "scanFilename": "SCAN_20260703_0104.pdf",
-    "receivedAt": "2026-07-03T09:41:00Z",
-    "letterheadStyle": "bda",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Disallowance\n\nClaimant: Anthony Delgado\nDate of Birth: December 15, 1977\nClaim No: BDA-4471-5590\nDate: June 29, 2026\n\nDear Mr. Delgado:\n\nWe have determined that you do not qualify for disability benefits on your application filed this year. Based on the medical and other evidence, the Bureau finds that your condition is not severe enough to keep you from working.\n\nIf you believe this determination is wrong, you have the right to appeal. You must file a request for reconsideration within 60 days of the date you receive this notice. We assume you received this notice 5 days after the date above unless you show us otherwise.\n\nIf you do not appeal within 60 days, this determination becomes final.\n\nBureau of Disability Adjudication\nRegion 6 Processing Center"
+    "scan_filename": "SCAN_20260703_0104.pdf",
+    "received_at": "2026-07-03T09:41:00Z",
+    "letterhead_style": "bda",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Disallowance\n\nClaimant: Anthony Delgado\nDate of Birth: December 15, 1977\nClaim No: BDA-4471-5590\nDate: June 29, 2026\n\nDear Mr. Delgado:\n\nWe have determined that you do not qualify for disability benefits on your application filed this year. Based on the medical and other evidence, the Bureau finds that your condition is not severe enough to keep you from working.\n\nIf you believe this determination is wrong, you have the right to appeal. You must file a request for reconsideration within 60 days of the date you receive this notice. We assume you received this notice 5 days after the date above unless you show us otherwise.\n\nIf you do not appeal within 60 days, this determination becomes final.\n\nBureau of Disability Adjudication\nRegion 6 Processing Center"
   },
   {
     "id": "L03",
-    "scanFilename": "SCAN_20260706_0038.pdf",
-    "receivedAt": "2026-07-06T10:02:00Z",
-    "letterheadStyle": "bda",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nReconsideration Determination\n\nClaimant: Priya Ramaswamy\nDate of Birth: April 22, 1985\nClaim No: BDA-4471-6673\nDate: July 2, 2026\n\nDear Ms. Ramaswamy:\n\nYou asked us to reconsider the earlier determination on your claim. A different reviewer, who took no part in the first decision, has looked at your complete file, including any new evidence you submitted.\n\nAfter this review, the Bureau again finds that you are not disabled under the Act. The reconsideration determination affirms the initial denial.\n\nIf you disagree, you may request a hearing before an administrative law judge. Your request for a hearing must be filed within 60 days of the date you receive this notice.\n\nBureau of Disability Adjudication\nReconsideration Unit"
+    "scan_filename": "SCAN_20260706_0038.pdf",
+    "received_at": "2026-07-06T10:02:00Z",
+    "letterhead_style": "bda",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nReconsideration Determination\n\nClaimant: Priya Ramaswamy\nDate of Birth: April 22, 1985\nClaim No: BDA-4471-6673\nDate: July 2, 2026\n\nDear Ms. Ramaswamy:\n\nYou asked us to reconsider the earlier determination on your claim. A different reviewer, who took no part in the first decision, has looked at your complete file, including any new evidence you submitted.\n\nAfter this review, the Bureau again finds that you are not disabled under the Act. The reconsideration determination affirms the initial denial.\n\nIf you disagree, you may request a hearing before an administrative law judge. Your request for a hearing must be filed within 60 days of the date you receive this notice.\n\nBureau of Disability Adjudication\nReconsideration Unit"
   },
   {
     "id": "L04",
-    "scanFilename": "SCAN_20260707_0117.pdf",
-    "receivedAt": "2026-07-07T08:33:00Z",
-    "letterheadStyle": "bda_appeals",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nOffice of Hearings\nNotice of Hearing\n\nClaimant: R0bert Castiilo\nDate of Birth: March 12, 1974\nClaim No: BDA-4471-4821\nDate: July 6, 2026\n\nDear Mr. Castillo:\n\nA hearing has been scheduled on your claim before an administrative law judge. Your hearing is set for August 19, 2026 at 9:30 a.m. and will be held by video from your representative's office.\n\nYou should plan to attend. If you cannot attend on this date, contact this office in writing as soon as possible to explain why. Failure to appear without good cause may result in dismissal of your request for hearing.\n\nPlease bring any additional evidence you wish the judge to consider, or submit it in advance through your representative.\n\nOffice of Hearings, Region 6"
+    "scan_filename": "SCAN_20260707_0117.pdf",
+    "received_at": "2026-07-07T08:33:00Z",
+    "letterhead_style": "bda_appeals",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nOffice of Hearings\nNotice of Hearing\n\nClaimant: R0bert Castiilo\nDate of Birth: March 12, 1974\nClaim No: BDA-4471-4821\nDate: July 6, 2026\n\nDear Mr. Castillo:\n\nA hearing has been scheduled on your claim before an administrative law judge. Your hearing is set for August 19, 2026 at 9:30 a.m. and will be held by video from your representative's office.\n\nYou should plan to attend. If you cannot attend on this date, contact this office in writing as soon as possible to explain why. Failure to appear without good cause may result in dismissal of your request for hearing.\n\nPlease bring any additional evidence you wish the judge to consider, or submit it in advance through your representative.\n\nOffice of Hearings, Region 6"
   },
   {
     "id": "L05",
-    "scanFilename": "SCAN_20260707_0129.pdf",
-    "receivedAt": "2026-07-07T08:55:00Z",
-    "letterheadStyle": "bda_appeals",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nAppeals Review Board\nIMPORTANT: TIME-SENSITIVE\n\nClaimant: Terrence Boothe\nDate of Birth: August 11, 1963\nClaim No: BDA-4471-9021\nDate: July 5, 2026\n\nDear Mr. Boothe:\n\nOur records show that the deadline to file your appeal of the hearing decision in your case is approaching. To keep your appeal rights, the Board must receive your request for review no later than July 24, 2026.\n\nIf we do not receive your request by that date, the hearing decision will become final and binding, and you may lose the right to further review.\n\nIf you have already filed your request, please disregard this notice.\n\nAppeals Review Board"
+    "scan_filename": "SCAN_20260707_0129.pdf",
+    "received_at": "2026-07-07T08:55:00Z",
+    "letterhead_style": "bda_appeals",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nAppeals Review Board\nIMPORTANT: TIME-SENSITIVE\n\nClaimant: Terrence Boothe\nDate of Birth: August 11, 1963\nClaim No: BDA-4471-9021\nDate: July 5, 2026\n\nDear Mr. Boothe:\n\nOur records show that the deadline to file your appeal of the hearing decision in your case is approaching. To keep your appeal rights, the Board must receive your request for review no later than July 24, 2026.\n\nIf we do not receive your request by that date, the hearing decision will become final and binding, and you may lose the right to further review.\n\nIf you have already filed your request, please disregard this notice.\n\nAppeals Review Board"
   },
   {
     "id": "L06",
-    "scanFilename": "SCAN_20260708_0061.pdf",
-    "receivedAt": "2026-07-08T11:20:00Z",
-    "letterheadStyle": "bda_appeals",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nAppeals Review Board\n\nClaimant: Jenifer Okonkwo-Hale\nDate of Birth: May 19, 1982\nClaim No: BDA-4471-3356\nDate: July 6, 2026\n\nDear Ms. Okonkwo-Hale:\n\nWe received your request for review of the hearing decision after the 60-day filing period had ended. Before the Board can consider your request, we must decide whether there was good cause for the late filing.\n\nPlease submit a written statement explaining why the request was not filed on time. Examples of good cause may include serious illness, a death in the family, or a failure to receive the notice. Include any supporting documents.\n\nSubmit your statement within 15 days of the date of this notice. The Board will then decide whether to accept the late request.\n\nAppeals Review Board"
+    "scan_filename": "SCAN_20260708_0061.pdf",
+    "received_at": "2026-07-08T11:20:00Z",
+    "letterhead_style": "bda_appeals",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nAppeals Review Board\n\nClaimant: Jenifer Okonkwo-Hale\nDate of Birth: May 19, 1982\nClaim No: BDA-4471-3356\nDate: July 6, 2026\n\nDear Ms. Okonkwo-Hale:\n\nWe received your request for review of the hearing decision after the 60-day filing period had ended. Before the Board can consider your request, we must decide whether there was good cause for the late filing.\n\nPlease submit a written statement explaining why the request was not filed on time. Examples of good cause may include serious illness, a death in the family, or a failure to receive the notice. Include any supporting documents.\n\nSubmit your statement within 15 days of the date of this notice. The Board will then decide whether to accept the late request.\n\nAppeals Review Board"
   },
   {
     "id": "L07",
-    "scanFilename": "SCAN_20260709_0044.pdf",
-    "receivedAt": "2026-07-09T09:05:00Z",
-    "letterheadStyle": "medical",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nConsultative Examination Scheduling\n\nClaimant: Alicia Fenwick\nDate of Birth: February 27, 1994\nClaim No: BDA-4471-3178\nDate: July 7, 2026\n\nDear Ms. Fenwick:\n\nTo help decide your claim, the Bureau has scheduled a consultative examination with an independent physician. Your appointment is:\n\nDate: July 30, 2026 at 1:00 p.m.\nProvider: Cedar Point Medical Associates\n\nThere is no charge to you for this examination. Please bring a photo ID and a list of your current medications. If you cannot keep this appointment, call the number on this notice to reschedule. Missing the examination without rescheduling may delay or affect your claim.\n\nBureau of Disability Adjudication"
+    "scan_filename": "SCAN_20260709_0044.pdf",
+    "received_at": "2026-07-09T09:05:00Z",
+    "letterhead_style": "medical",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nConsultative Examination Scheduling\n\nClaimant: Alicia Fenwick\nDate of Birth: February 27, 1994\nClaim No: BDA-4471-3178\nDate: July 7, 2026\n\nDear Ms. Fenwick:\n\nTo help decide your claim, the Bureau has scheduled a consultative examination with an independent physician. Your appointment is:\n\nDate: July 30, 2026 at 1:00 p.m.\nProvider: Cedar Point Medical Associates\n\nThere is no charge to you for this examination. Please bring a photo ID and a list of your current medications. If you cannot keep this appointment, call the number on this notice to reschedule. Missing the examination without rescheduling may delay or affect your claim.\n\nBureau of Disability Adjudication"
   },
   {
     "id": "L08",
-    "scanFilename": "SCAN_20260709_0052.pdf",
-    "receivedAt": "2026-07-09T09:47:00Z",
-    "letterheadStyle": "generic",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nRequest for Records\n\nRe: David Okafor\nDate of Birth: June 5, 1971\nClaim No: BDA-4471-4409\nDate: July 7, 2026\n\nTo the Representative of Record:\n\nThe Bureau is developing the above claim and requires additional records to complete its review. Please provide any updated medical records, treatment notes, or function reports in your possession dated within the last 12 months.\n\nSubmit the requested records within 10 business days. If the records are not available or do not exist, please notify this office in writing so the file can be documented.\n\nBureau of Disability Adjudication\nCase Development Unit"
+    "scan_filename": "SCAN_20260709_0052.pdf",
+    "received_at": "2026-07-09T09:47:00Z",
+    "letterhead_style": "generic",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nRequest for Records\n\nRe: David Okafor\nDate of Birth: June 5, 1971\nClaim No: BDA-4471-4409\nDate: July 7, 2026\n\nTo the Representative of Record:\n\nThe Bureau is developing the above claim and requires additional records to complete its review. Please provide any updated medical records, treatment notes, or function reports in your possession dated within the last 12 months.\n\nSubmit the requested records within 10 business days. If the records are not available or do not exist, please notify this office in writing so the file can be documented.\n\nBureau of Disability Adjudication\nCase Development Unit"
   },
   {
     "id": "L09",
-    "scanFilename": "SCAN_20260710_0073.pdf",
-    "receivedAt": "2026-07-10T08:19:00Z",
-    "letterheadStyle": "generic",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nBenefit Payment Statement\n\nClaimant: Latoya Simmons\nDate of Birth: January 30, 1983\nClaim No: BDA-4471-8143\nDate: July 8, 2026\n\nDear Ms. Simmons:\n\nThis statement summarizes the benefit payments issued on your claim for the period ending June 30, 2026. Your regular monthly benefit was paid on schedule. No changes were made to your payment amount during this period.\n\nThis notice is for your records. No action is required. If you believe any amount shown is incorrect, contact the Bureau within 30 days.\n\nBureau of Disability Adjudication\nPayment Center"
+    "scan_filename": "SCAN_20260710_0073.pdf",
+    "received_at": "2026-07-10T08:19:00Z",
+    "letterhead_style": "generic",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nBenefit Payment Statement\n\nClaimant: Latoya Simmons\nDate of Birth: January 30, 1983\nClaim No: BDA-4471-8143\nDate: July 8, 2026\n\nDear Ms. Simmons:\n\nThis statement summarizes the benefit payments issued on your claim for the period ending June 30, 2026. Your regular monthly benefit was paid on schedule. No changes were made to your payment amount during this period.\n\nThis notice is for your records. No action is required. If you believe any amount shown is incorrect, contact the Bureau within 30 days.\n\nBureau of Disability Adjudication\nPayment Center"
   },
   {
     "id": "L10",
-    "scanFilename": "SCAN_20260710_0088.pdf",
-    "receivedAt": "2026-07-10T10:31:00Z",
-    "letterheadStyle": "bda",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Overpayment\n\nClaimant: Sandra Mikkelsen\nDate of Birth: October 14, 1980\nClaim No: BDA-4471-7756\nDate: July 8, 2026\n\nDear Ms. Mikkelsen:\n\nOur records show that you were paid $3,412.00 more in benefits than you were due for the period of January through April 2026. This overpayment happened because of a change in your reported income that was processed late.\n\nYou have the right to ask us to waive collection of this amount, or to appeal if you believe the overpayment is wrong. If you take no action within 30 days, we will begin adjusting your future payments to recover the amount owed.\n\nBureau of Disability Adjudication\nOverpayment Recovery Unit"
+    "scan_filename": "SCAN_20260710_0088.pdf",
+    "received_at": "2026-07-10T10:31:00Z",
+    "letterhead_style": "bda",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Overpayment\n\nClaimant: Sandra Mikkelsen\nDate of Birth: October 14, 1980\nClaim No: BDA-4471-7756\nDate: July 8, 2026\n\nDear Ms. Mikkelsen:\n\nOur records show that you were paid $3,412.00 more in benefits than you were due for the period of January through April 2026. This overpayment happened because of a change in your reported income that was processed late.\n\nYou have the right to ask us to waive collection of this amount, or to appeal if you believe the overpayment is wrong. If you take no action within 30 days, we will begin adjusting your future payments to recover the amount owed.\n\nBureau of Disability Adjudication\nOverpayment Recovery Unit"
   },
   {
     "id": "L11",
-    "scanFilename": "SCAN_20260711_0019.pdf",
-    "receivedAt": "2026-07-11T09:12:00Z",
-    "letterheadStyle": "generic",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Fee Authorization\n\nRe: Nathan Ostrowski\nDate of Birth: June 23, 1987\nClaim No: BDA-4471-1174\nDate: July 9, 2026\n\nTo the Representative of Record:\n\nThe Bureau has authorized the representative's fee in the above claim. The authorized fee has been approved in accordance with the fee agreement on file and does not exceed the applicable cap.\n\nThe authorized amount will be withheld from the claimant's past-due benefits and released to the representative. This notice confirms the authorization for your records.\n\nBureau of Disability Adjudication\nFee Unit"
+    "scan_filename": "SCAN_20260711_0019.pdf",
+    "received_at": "2026-07-11T09:12:00Z",
+    "letterhead_style": "generic",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Fee Authorization\n\nRe: Nathan Ostrowski\nDate of Birth: June 23, 1987\nClaim No: BDA-4471-1174\nDate: July 9, 2026\n\nTo the Representative of Record:\n\nThe Bureau has authorized the representative's fee in the above claim. The authorized fee has been approved in accordance with the fee agreement on file and does not exceed the applicable cap.\n\nThe authorized amount will be withheld from the claimant's past-due benefits and released to the representative. This notice confirms the authorization for your records.\n\nBureau of Disability Adjudication\nFee Unit"
   },
   {
     "id": "L12",
-    "scanFilename": "SCAN_20260711_0033.pdf",
-    "receivedAt": "2026-07-11T09:58:00Z",
-    "letterheadStyle": "bda_appeals",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nOffice of Hearings\nNotice of Hearing\n\nClaimant: Curtis Yarnada\nDate of Birth: March 3, 1966\nClaim No: BDA-4471-1284\nDate: July 10, 2026\n\nDear Mr. Yamada:\n\nA hearing on your claim has been scheduled before an administrative law judge for September 4, 2026 at 11:00 a.m. The hearing will be held by telephone unless you request otherwise.\n\nIf the date or time does not work for you, notify this office in writing right away. If you do not appear and have not shown good cause, the judge may dismiss your request for a hearing.\n\nOffice of Hearings, Region 6"
+    "scan_filename": "SCAN_20260711_0033.pdf",
+    "received_at": "2026-07-11T09:58:00Z",
+    "letterhead_style": "bda_appeals",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nOffice of Hearings\nNotice of Hearing\n\nClaimant: Curtis Yarnada\nDate of Birth: March 3, 1966\nClaim No: BDA-4471-1284\nDate: July 10, 2026\n\nDear Mr. Yamada:\n\nA hearing on your claim has been scheduled before an administrative law judge for September 4, 2026 at 11:00 a.m. The hearing will be held by telephone unless you request otherwise.\n\nIf the date or time does not work for you, notify this office in writing right away. If you do not appear and have not shown good cause, the judge may dismiss your request for a hearing.\n\nOffice of Hearings, Region 6"
   },
   {
     "id": "L13",
-    "scanFilename": "SCAN_20260712_0027.pdf",
-    "receivedAt": "2026-07-12T08:41:00Z",
-    "letterheadStyle": "medical",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nConsultative Examination Scheduling\n\nClaimant: Vincent Petrakls\nDate of Birth: May 25, 1975\nClaim No: BDA-4471-2267\nDate: July 10, 2026\n\nDear Mr. Petrakis:\n\nThe Bureau has scheduled a consultative examination to obtain current information about your condition. Your appointment is:\n\nDate: August 6, 2026 at 10:15 a.m.\nProvider: Northgate Diagnostic Clinic\n\nThe examination is provided at no cost to you. Please arrive fifteen minutes early and bring photo identification. If you are unable to attend, contact the clinic to reschedule as soon as possible.\n\nBureau of Disability Adjudication"
+    "scan_filename": "SCAN_20260712_0027.pdf",
+    "received_at": "2026-07-12T08:41:00Z",
+    "letterhead_style": "medical",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nConsultative Examination Scheduling\n\nClaimant: Vincent Petrakls\nDate of Birth: May 25, 1975\nClaim No: BDA-4471-2267\nDate: July 10, 2026\n\nDear Mr. Petrakis:\n\nThe Bureau has scheduled a consultative examination to obtain current information about your condition. Your appointment is:\n\nDate: August 6, 2026 at 10:15 a.m.\nProvider: Northgate Diagnostic Clinic\n\nThe examination is provided at no cost to you. Please arrive fifteen minutes early and bring photo identification. If you are unable to attend, contact the clinic to reschedule as soon as possible.\n\nBureau of Disability Adjudication"
   },
   {
     "id": "L14",
-    "scanFilename": "SCAN_20260712_0055.pdf",
-    "receivedAt": "2026-07-12T09:30:00Z",
-    "letterheadStyle": "generic",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nRequest for Records\n\nRe: Hannah Brightwater\nDate of Birth: September 12, 1996\nClaim No: BDA-4471-4472\nDate: July 11, 2026\n\nTo the Representative of Record:\n\nWe are reviewing the above claim and need additional documentation. Please submit any records of treatment received since the date of the application, including hospital records, imaging reports, and provider notes.\n\nPlease respond within 10 business days. If no such records exist, notify this office so the file may be documented accordingly.\n\nBureau of Disability Adjudication\nCase Development Unit"
+    "scan_filename": "SCAN_20260712_0055.pdf",
+    "received_at": "2026-07-12T09:30:00Z",
+    "letterhead_style": "generic",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nRequest for Records\n\nRe: Hannah Brightwater\nDate of Birth: September 12, 1996\nClaim No: BDA-4471-4472\nDate: July 11, 2026\n\nTo the Representative of Record:\n\nWe are reviewing the above claim and need additional documentation. Please submit any records of treatment received since the date of the application, including hospital records, imaging reports, and provider notes.\n\nPlease respond within 10 business days. If no such records exist, notify this office so the file may be documented accordingly.\n\nBureau of Disability Adjudication\nCase Development Unit"
   },
   {
     "id": "L15",
-    "scanFilename": "SCAN_20260713_0012.pdf",
-    "receivedAt": "2026-07-13T08:22:00Z",
-    "letterheadStyle": "generic",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nBenefit Payment Statement\n\nClaimant: 0mar Haddad\nDate of Birth: February 16, 1979\nClaim No: BDA-4471-3309\nDate: July 11, 2026\n\nDear Mr. Haddad:\n\nThis is a summary of the benefit payments made on your claim through June 2026. Your monthly payment was issued on the usual schedule, and no adjustments were applied during this period.\n\nKeep this notice for your records. No response is needed. If any figure appears incorrect, contact the Bureau within 30 days.\n\nBureau of Disability Adjudication\nPayment Center"
+    "scan_filename": "SCAN_20260713_0012.pdf",
+    "received_at": "2026-07-13T08:22:00Z",
+    "letterhead_style": "generic",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nBenefit Payment Statement\n\nClaimant: 0mar Haddad\nDate of Birth: February 16, 1979\nClaim No: BDA-4471-3309\nDate: July 11, 2026\n\nDear Mr. Haddad:\n\nThis is a summary of the benefit payments made on your claim through June 2026. Your monthly payment was issued on the usual schedule, and no adjustments were applied during this period.\n\nKeep this notice for your records. No response is needed. If any figure appears incorrect, contact the Bureau within 30 days.\n\nBureau of Disability Adjudication\nPayment Center"
   },
   {
     "id": "L16",
-    "scanFilename": "SCAN_20260713_0029.pdf",
-    "receivedAt": "2026-07-13T09:44:00Z",
-    "letterheadStyle": "bda_appeals",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nOffice of Hearings\nNotice of Hearing\n\nClaimant: Maria Gonzalez\nDate of Birth: July 2, 1988\nClaim No: BDA-4471-1190\nDate: July 11, 2026\n\nDear Ms. Gonzales:\n\nA hearing on your claim has been scheduled before an administrative law judge for September 10, 2026 at 2:00 p.m., to be held by video.\n\nPlease confirm your attendance with this office. If you are unable to attend, submit a written request to reschedule with the reason. Bring or submit in advance any additional evidence you wish the judge to review.\n\nOffice of Hearings, Region 6"
+    "scan_filename": "SCAN_20260713_0029.pdf",
+    "received_at": "2026-07-13T09:44:00Z",
+    "letterhead_style": "bda_appeals",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nOffice of Hearings\nNotice of Hearing\n\nClaimant: Maria Gonzalez\nDate of Birth: July 2, 1988\nClaim No: BDA-4471-1190\nDate: July 11, 2026\n\nDear Ms. Gonzales:\n\nA hearing on your claim has been scheduled before an administrative law judge for September 10, 2026 at 2:00 p.m., to be held by video.\n\nPlease confirm your attendance with this office. If you are unable to attend, submit a written request to reschedule with the reason. Bring or submit in advance any additional evidence you wish the judge to review.\n\nOffice of Hearings, Region 6"
   },
   {
     "id": "L17",
-    "scanFilename": "SCAN_20260714_0007.pdf",
-    "receivedAt": "2026-07-14T08:10:00Z",
-    "letterheadStyle": "bda",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Disallowance\n\nClaimant: Zachary Ellsworth\nDate of Birth: April 3, 1990\nClaim No: BDA-5590-0031\nDate: July 12, 2026\n\nDear Mr. Ellsworth:\n\nWe have determined that you do not qualify for disability benefits on your recent application. The evidence does not show that your condition prevents you from performing work you have done in the past.\n\nIf you disagree, you may request reconsideration within 60 days of receiving this notice.\n\nBureau of Disability Adjudication\nRegion 6 Processing Center"
+    "scan_filename": "SCAN_20260714_0007.pdf",
+    "received_at": "2026-07-14T08:10:00Z",
+    "letterhead_style": "bda",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nNotice of Disallowance\n\nClaimant: Zachary Ellsworth\nDate of Birth: April 3, 1990\nClaim No: BDA-5590-0031\nDate: July 12, 2026\n\nDear Mr. Ellsworth:\n\nWe have determined that you do not qualify for disability benefits on your recent application. The evidence does not show that your condition prevents you from performing work you have done in the past.\n\nIf you disagree, you may request reconsideration within 60 days of receiving this notice.\n\nBureau of Disability Adjudication\nRegion 6 Processing Center"
   },
   {
     "id": "L18",
-    "scanFilename": "SCAN_20260714_0021.pdf",
-    "receivedAt": "2026-07-14T09:26:00Z",
-    "letterheadStyle": "generic",
-    "bodyText": "BUREAU OF DISABILITY ADJUDICATION\nGeneral Correspondence\n\nRe: File BDA-4471-5563\nDate: July 12, 2026\n\nTo Whom It May Concern:\n\nThis notice is to acknowledge recent activity on the referenced file. Certain information in our records requires updating before further processing can continue. A representative from the Bureau may contact your office regarding the matter.\n\nNo specific action is requested at this time. Please retain this notice with the file.\n\nBureau of Disability Adjudication\nRecords Management"
+    "scan_filename": "SCAN_20260714_0021.pdf",
+    "received_at": "2026-07-14T09:26:00Z",
+    "letterhead_style": "generic",
+    "body_text": "BUREAU OF DISABILITY ADJUDICATION\nGeneral Correspondence\n\nRe: File BDA-4471-5563\nDate: July 12, 2026\n\nTo Whom It May Concern:\n\nThis notice is to acknowledge recent activity on the referenced file. Certain information in our records requires updating before further processing can continue. A representative from the Bureau may contact your office regarding the matter.\n\nNo specific action is requested at this time. Please retain this notice with the file.\n\nBureau of Disability Adjudication\nRecords Management"
   }
 ]

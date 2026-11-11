@@ -1,10 +1,10 @@
 {
-  "capturedAt": "2026-07-16T12:22:41.283Z",
+  "captured_at": "2026-07-16T12:22:41.283Z",
   "runs": {
     "L01": [
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -12,24 +12,24 @@
         "message": "SCAN_20260703_0091.pdf"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:22:41.284Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:22:41.284Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -42,65 +42,65 @@
           "input": 1162,
           "output": 63
         },
-        "durationMs": 3058,
+        "duration_ms": 3058,
         "ts": "2026-07-16T12:22:47.400Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Marcus Lee",
+          "claimant_name": "Marcus Lee",
           "dob": "1969-09-30",
-          "ssnLast4": "8812",
-          "docDate": "2026-07-01"
+          "ssn_last4": "8812",
+          "doc_date": "2026-07-01"
         },
         "tokens": {
           "input": 852,
           "output": 52
         },
-        "durationMs": 3058,
+        "duration_ms": 3058,
         "ts": "2026-07-16T12:22:47.400Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:22:47.400Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c05",
-          "matterId": "M-2045",
-          "clientName": "Marcus Lee",
+          "client_id": "c05",
+          "matter_id": "M-2045",
+          "client_name": "Marcus Lee",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:22:47.401Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:22:47.401Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -111,8 +111,8 @@
         "ts": "2026-07-16T12:22:47.401Z"
       },
       {
-        "runId": "run_L01_mrnhbudg",
-        "letterId": "L01",
+        "run_id": "run_L01_mrnhbudg",
+        "letter_id": "L01",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -122,8 +122,8 @@
     ],
     "L02": [
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -131,24 +131,24 @@
         "message": "SCAN_20260703_0104.pdf"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:22:47.401Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:22:47.401Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -161,65 +161,65 @@
           "input": 1159,
           "output": 96
         },
-        "durationMs": 7022,
+        "duration_ms": 7022,
         "ts": "2026-07-16T12:23:01.444Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Anthony Delgado",
+          "claimant_name": "Anthony Delgado",
           "dob": "1977-12-15",
-          "ssnLast4": "5590",
-          "docDate": "2026-06-29"
+          "ssn_last4": "5590",
+          "doc_date": "2026-06-29"
         },
         "tokens": {
           "input": 849,
           "output": 53
         },
-        "durationMs": 7022,
+        "duration_ms": 7022,
         "ts": "2026-07-16T12:23:01.444Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:01.444Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c07",
-          "matterId": "M-2047",
-          "clientName": "Anthony Delgado",
+          "client_id": "c07",
+          "matter_id": "M-2047",
+          "client_name": "Anthony Delgado",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:01.445Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:01.445Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -230,8 +230,8 @@
         "ts": "2026-07-16T12:23:01.445Z"
       },
       {
-        "runId": "run_L02_mrnhbz3d",
-        "letterId": "L02",
+        "run_id": "run_L02_mrnhbz3d",
+        "letter_id": "L02",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -241,8 +241,8 @@
     ],
     "L03": [
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -250,24 +250,24 @@
         "message": "SCAN_20260706_0038.pdf"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:01.445Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:01.445Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -280,65 +280,65 @@
           "input": 1155,
           "output": 71
         },
-        "durationMs": 1595,
+        "duration_ms": 1595,
         "ts": "2026-07-16T12:23:04.634Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Priya Ramaswamy",
+          "claimant_name": "Priya Ramaswamy",
           "dob": "1985-04-22",
-          "ssnLast4": "6673",
-          "docDate": "2026-07-02"
+          "ssn_last4": "6673",
+          "doc_date": "2026-07-02"
         },
         "tokens": {
           "input": 845,
           "output": 55
         },
-        "durationMs": 1595,
+        "duration_ms": 1595,
         "ts": "2026-07-16T12:23:04.634Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:04.634Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c08",
-          "matterId": "M-2048",
-          "clientName": "Priya Ramaswamy",
+          "client_id": "c08",
+          "matter_id": "M-2048",
+          "client_name": "Priya Ramaswamy",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:04.635Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:04.635Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -349,8 +349,8 @@
         "ts": "2026-07-16T12:23:04.635Z"
       },
       {
-        "runId": "run_L03_mrnhc9xh",
-        "letterId": "L03",
+        "run_id": "run_L03_mrnhc9xh",
+        "letter_id": "L03",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -360,8 +360,8 @@
     ],
     "L04": [
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -369,24 +369,24 @@
         "message": "SCAN_20260707_0117.pdf"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:04.635Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:04.635Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -399,65 +399,65 @@
           "input": 1156,
           "output": 61
         },
-        "durationMs": 4869,
+        "duration_ms": 4869,
         "ts": "2026-07-16T12:23:14.372Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "R0bert Castiilo",
+          "claimant_name": "R0bert Castiilo",
           "dob": "1974-03-12",
-          "ssnLast4": "4821",
-          "docDate": "2026-07-06"
+          "ssn_last4": "4821",
+          "doc_date": "2026-07-06"
         },
         "tokens": {
           "input": 846,
           "output": 54
         },
-        "durationMs": 4869,
+        "duration_ms": 4869,
         "ts": "2026-07-16T12:23:14.372Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:14.372Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c01",
-          "matterId": "M-2041",
-          "clientName": "Robert Castillo",
+          "client_id": "c01",
+          "matter_id": "M-2041",
+          "client_name": "Robert Castillo",
           "method": "fuzzy",
           "distance": 2,
           "score": 0.87
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:14.373Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:14.373Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -468,30 +468,30 @@
         "ts": "2026-07-16T12:23:14.373Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:14.373Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Castillo_Robert_M-2041_HearingNotice_2026-07-06.pdf",
+          "renamed_to": "Castillo_Robert_M-2041_HearingNotice_2026-07-06.pdf",
           "folder": "04 Hearings",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "Calendar hearing date; notify claimant"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "Calendar hearing date; notify claimant"
         },
         "ts": "2026-07-16T12:23:14.373Z"
       },
       {
-        "runId": "run_L04_mrnhcce3",
-        "letterId": "L04",
+        "run_id": "run_L04_mrnhcce3",
+        "letter_id": "L04",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -501,8 +501,8 @@
     ],
     "L05": [
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -510,24 +510,24 @@
         "message": "SCAN_20260707_0129.pdf"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:14.373Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:14.373Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -540,65 +540,65 @@
           "input": 1121,
           "output": 77
         },
-        "durationMs": 1870,
+        "duration_ms": 1870,
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Terrence Boothe",
+          "claimant_name": "Terrence Boothe",
           "dob": "1963-08-11",
-          "ssnLast4": "9021",
-          "docDate": "2026-07-05"
+          "ssn_last4": "9021",
+          "doc_date": "2026-07-05"
         },
         "tokens": {
           "input": 811,
           "output": 53
         },
-        "durationMs": 1870,
+        "duration_ms": 1870,
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c09",
-          "matterId": "M-2049",
-          "clientName": "Terrence Boothe",
+          "client_id": "c09",
+          "matter_id": "M-2049",
+          "client_name": "Terrence Boothe",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 0,
+        "duration_ms": 0,
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -609,8 +609,8 @@
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L05_mrnhcjwl",
-        "letterId": "L05",
+        "run_id": "run_L05_mrnhcjwl",
+        "letter_id": "L05",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -620,8 +620,8 @@
     ],
     "L06": [
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -629,24 +629,24 @@
         "message": "SCAN_20260708_0061.pdf"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:18.113Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -659,65 +659,65 @@
           "input": 1150,
           "output": 71
         },
-        "durationMs": 1645,
+        "duration_ms": 1645,
         "ts": "2026-07-16T12:23:21.403Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Jenifer Okonkwo-Hale",
+          "claimant_name": "Jenifer Okonkwo-Hale",
           "dob": "1982-05-19",
-          "ssnLast4": "3356",
-          "docDate": "2026-07-06"
+          "ssn_last4": "3356",
+          "doc_date": "2026-07-06"
         },
         "tokens": {
           "input": 840,
           "output": 60
         },
-        "durationMs": 1645,
+        "duration_ms": 1645,
         "ts": "2026-07-16T12:23:21.403Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:21.403Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c04",
-          "matterId": "M-2044",
-          "clientName": "Jennifer Okonkwo-Hale",
+          "client_id": "c04",
+          "matter_id": "M-2044",
+          "client_name": "Jennifer Okonkwo-Hale",
           "method": "fuzzy",
           "distance": 1,
           "score": 0.95
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:21.404Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:21.404Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -728,8 +728,8 @@
         "ts": "2026-07-16T12:23:21.404Z"
       },
       {
-        "runId": "run_L06_mrnhcmsh",
-        "letterId": "L06",
+        "run_id": "run_L06_mrnhcmsh",
+        "letter_id": "L06",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -739,8 +739,8 @@
     ],
     "L07": [
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -748,24 +748,24 @@
         "message": "SCAN_20260709_0044.pdf"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:21.404Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:21.404Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -778,65 +778,65 @@
           "input": 1151,
           "output": 59
         },
-        "durationMs": 1427,
+        "duration_ms": 1427,
         "ts": "2026-07-16T12:23:24.257Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Alicia Fenwick",
+          "claimant_name": "Alicia Fenwick",
           "dob": "1994-02-27",
-          "ssnLast4": "3178",
-          "docDate": "2026-07-07"
+          "ssn_last4": "3178",
+          "doc_date": "2026-07-07"
         },
         "tokens": {
           "input": 841,
           "output": 54
         },
-        "durationMs": 1427,
+        "duration_ms": 1427,
         "ts": "2026-07-16T12:23:24.257Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:24.257Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c10",
-          "matterId": "M-2050",
-          "clientName": "Alicia Fenwick",
+          "client_id": "c10",
+          "matter_id": "M-2050",
+          "client_name": "Alicia Fenwick",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:24.258Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:24.258Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -847,30 +847,30 @@
         "ts": "2026-07-16T12:23:24.258Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:24.258Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Fenwick_Alicia_M-2050_CeAppointment_2026-07-07.pdf",
+          "renamed_to": "Fenwick_Alicia_M-2050_CeAppointment_2026-07-07.pdf",
           "folder": "07 CE Exams",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "Calendar exam; send claimant reminder"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "Calendar exam; send claimant reminder"
         },
         "ts": "2026-07-16T12:23:24.258Z"
       },
       {
-        "runId": "run_L07_mrnhcpbw",
-        "letterId": "L07",
+        "run_id": "run_L07_mrnhcpbw",
+        "letter_id": "L07",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -880,8 +880,8 @@
     ],
     "L08": [
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -889,24 +889,24 @@
         "message": "SCAN_20260709_0052.pdf"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:24.258Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:24.258Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -919,65 +919,65 @@
           "input": 1089,
           "output": 61
         },
-        "durationMs": 1285,
+        "duration_ms": 1285,
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "David Okafor",
+          "claimant_name": "David Okafor",
           "dob": "1971-06-05",
-          "ssnLast4": "4409",
-          "docDate": "2026-07-07"
+          "ssn_last4": "4409",
+          "doc_date": "2026-07-07"
         },
         "tokens": {
           "input": 779,
           "output": 50
         },
-        "durationMs": 1285,
+        "duration_ms": 1285,
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c11",
-          "matterId": "M-2051",
-          "clientName": "David Okafor",
+          "client_id": "c11",
+          "matter_id": "M-2051",
+          "client_name": "David Okafor",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 0,
+        "duration_ms": 0,
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -988,30 +988,30 @@
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Okafor_David_M-2051_RecordsRequest_2026-07-07.pdf",
+          "renamed_to": "Okafor_David_M-2051_RecordsRequest_2026-07-07.pdf",
           "folder": "08 Records Requests",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "Forward to records clerk; log the request"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "Forward to records clerk; log the request"
         },
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L08_mrnhcrj6",
-        "letterId": "L08",
+        "run_id": "run_L08_mrnhcrj6",
+        "letter_id": "L08",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1021,8 +1021,8 @@
     ],
     "L09": [
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1030,24 +1030,24 @@
         "message": "SCAN_20260710_0073.pdf"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:26.827Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -1060,65 +1060,65 @@
           "input": 1105,
           "output": 77
         },
-        "durationMs": 1911,
+        "duration_ms": 1911,
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Latoya Simmons",
+          "claimant_name": "Latoya Simmons",
           "dob": "1983-01-30",
-          "ssnLast4": "8143",
-          "docDate": "2026-07-08"
+          "ssn_last4": "8143",
+          "doc_date": "2026-07-08"
         },
         "tokens": {
           "input": 795,
           "output": 53
         },
-        "durationMs": 1911,
+        "duration_ms": 1911,
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c16",
-          "matterId": "M-2056",
-          "clientName": "Latoya Simmons",
+          "client_id": "c16",
+          "matter_id": "M-2056",
+          "client_name": "Latoya Simmons",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 0,
+        "duration_ms": 0,
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -1129,30 +1129,30 @@
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Simmons_Latoya_M-2056_BenefitStatement_2026-07-08.pdf",
+          "renamed_to": "Simmons_Latoya_M-2056_BenefitStatement_2026-07-08.pdf",
           "folder": "09 Financial",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "File to financial folder"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "File to financial folder"
         },
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L09_mrnhctij",
-        "letterId": "L09",
+        "run_id": "run_L09_mrnhctij",
+        "letter_id": "L09",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1162,8 +1162,8 @@
     ],
     "L10": [
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1171,24 +1171,24 @@
         "message": "SCAN_20260710_0088.pdf"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:30.649Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -1201,65 +1201,65 @@
           "input": 1138,
           "output": 88
         },
-        "durationMs": 1550,
+        "duration_ms": 1550,
         "ts": "2026-07-16T12:23:33.749Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Sandra Mikkelsen",
+          "claimant_name": "Sandra Mikkelsen",
           "dob": "1980-10-14",
-          "ssnLast4": "7756",
-          "docDate": "2026-07-08"
+          "ssn_last4": "7756",
+          "doc_date": "2026-07-08"
         },
         "tokens": {
           "input": 828,
           "output": 56
         },
-        "durationMs": 1550,
+        "duration_ms": 1550,
         "ts": "2026-07-16T12:23:33.749Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:33.749Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c12",
-          "matterId": "M-2052",
-          "clientName": "Sandra Mikkelsen",
+          "client_id": "c12",
+          "matter_id": "M-2052",
+          "client_name": "Sandra Mikkelsen",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:33.750Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:33.750Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -1270,8 +1270,8 @@
         "ts": "2026-07-16T12:23:33.750Z"
       },
       {
-        "runId": "run_L10_mrnhcwgp",
-        "letterId": "L10",
+        "run_id": "run_L10_mrnhcwgp",
+        "letter_id": "L10",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1281,8 +1281,8 @@
     ],
     "L11": [
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1290,24 +1290,24 @@
         "message": "SCAN_20260711_0019.pdf"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:33.750Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:33.750Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -1320,65 +1320,65 @@
           "input": 1099,
           "output": 75
         },
-        "durationMs": 1755,
+        "duration_ms": 1755,
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Nathan Ostrowski",
+          "claimant_name": "Nathan Ostrowski",
           "dob": "1987-06-23",
-          "ssnLast4": "1174",
-          "docDate": "2026-07-09"
+          "ssn_last4": "1174",
+          "doc_date": "2026-07-09"
         },
         "tokens": {
           "input": 789,
           "output": 55
         },
-        "durationMs": 1755,
+        "duration_ms": 1755,
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c21",
-          "matterId": "M-2061",
-          "clientName": "Nathan Ostrowski",
+          "client_id": "c21",
+          "matter_id": "M-2061",
+          "client_name": "Nathan Ostrowski",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 0,
+        "duration_ms": 0,
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -1389,30 +1389,30 @@
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Ostrowski_Nathan_M-2061_FeeAuthorization_2026-07-09.pdf",
+          "renamed_to": "Ostrowski_Nathan_M-2061_FeeAuthorization_2026-07-09.pdf",
           "folder": "11 Fees",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "File to fees folder; notify billing"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "File to fees folder; notify billing"
         },
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L11_mrnhcyuu",
-        "letterId": "L11",
+        "run_id": "run_L11_mrnhcyuu",
+        "letter_id": "L11",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1422,8 +1422,8 @@
     ],
     "L12": [
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1431,24 +1431,24 @@
         "message": "SCAN_20260711_0033.pdf"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:37.260Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -1461,65 +1461,65 @@
           "input": 1112,
           "output": 69
         },
-        "durationMs": 1332,
+        "duration_ms": 1332,
         "ts": "2026-07-16T12:23:39.924Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Curtis Yarnada",
+          "claimant_name": "Curtis Yarnada",
           "dob": "1966-03-03",
-          "ssnLast4": "1284",
-          "docDate": "2026-07-10"
+          "ssn_last4": "1284",
+          "doc_date": "2026-07-10"
         },
         "tokens": {
           "input": 802,
           "output": 54
         },
-        "durationMs": 1332,
+        "duration_ms": 1332,
         "ts": "2026-07-16T12:23:39.924Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:39.924Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c13",
-          "matterId": "M-2053",
-          "clientName": "Curtis Yamada",
+          "client_id": "c13",
+          "matter_id": "M-2053",
+          "client_name": "Curtis Yamada",
           "method": "fuzzy",
           "distance": 2,
           "score": 0.86
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:39.925Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:39.925Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -1530,30 +1530,30 @@
         "ts": "2026-07-16T12:23:39.925Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:39.925Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Yamada_Curtis_M-2053_HearingNotice_2026-07-10.pdf",
+          "renamed_to": "Yamada_Curtis_M-2053_HearingNotice_2026-07-10.pdf",
           "folder": "04 Hearings",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "Calendar hearing date; notify claimant"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "Calendar hearing date; notify claimant"
         },
         "ts": "2026-07-16T12:23:39.925Z"
       },
       {
-        "runId": "run_L12_mrnhd1kc",
-        "letterId": "L12",
+        "run_id": "run_L12_mrnhd1kc",
+        "letter_id": "L12",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1563,8 +1563,8 @@
     ],
     "L13": [
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1572,24 +1572,24 @@
         "message": "SCAN_20260712_0027.pdf"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:39.925Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:39.925Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -1602,65 +1602,65 @@
           "input": 1133,
           "output": 59
         },
-        "durationMs": 1295,
+        "duration_ms": 1295,
         "ts": "2026-07-16T12:23:42.515Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Vincent Petrakls",
+          "claimant_name": "Vincent Petrakls",
           "dob": "1975-05-25",
-          "ssnLast4": "2267",
-          "docDate": "2026-07-10"
+          "ssn_last4": "2267",
+          "doc_date": "2026-07-10"
         },
         "tokens": {
           "input": 823,
           "output": 54
         },
-        "durationMs": 1295,
+        "duration_ms": 1295,
         "ts": "2026-07-16T12:23:42.515Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:42.515Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c17",
-          "matterId": "M-2057",
-          "clientName": "Vincent Petrakis",
+          "client_id": "c17",
+          "matter_id": "M-2057",
+          "client_name": "Vincent Petrakis",
           "method": "fuzzy",
           "distance": 1,
           "score": 0.94
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:42.516Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:42.516Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -1671,30 +1671,30 @@
         "ts": "2026-07-16T12:23:42.516Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:42.516Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Petrakis_Vincent_M-2057_CeAppointment_2026-07-10.pdf",
+          "renamed_to": "Petrakis_Vincent_M-2057_CeAppointment_2026-07-10.pdf",
           "folder": "07 CE Exams",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "Calendar exam; send claimant reminder"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "Calendar exam; send claimant reminder"
         },
         "ts": "2026-07-16T12:23:42.516Z"
       },
       {
-        "runId": "run_L13_mrnhd3md",
-        "letterId": "L13",
+        "run_id": "run_L13_mrnhd3md",
+        "letter_id": "L13",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1704,8 +1704,8 @@
     ],
     "L14": [
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1713,24 +1713,24 @@
         "message": "SCAN_20260712_0055.pdf"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:42.516Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:42.516Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -1743,65 +1743,65 @@
           "input": 1080,
           "output": 75
         },
-        "durationMs": 1286,
+        "duration_ms": 1286,
         "ts": "2026-07-16T12:23:45.088Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Hannah Brightwater",
+          "claimant_name": "Hannah Brightwater",
           "dob": "1996-09-12",
-          "ssnLast4": "4472",
-          "docDate": "2026-07-11"
+          "ssn_last4": "4472",
+          "doc_date": "2026-07-11"
         },
         "tokens": {
           "input": 770,
           "output": 54
         },
-        "durationMs": 1286,
+        "duration_ms": 1286,
         "ts": "2026-07-16T12:23:45.088Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:45.088Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c18",
-          "matterId": "M-2058",
-          "clientName": "Hannah Brightwater",
+          "client_id": "c18",
+          "matter_id": "M-2058",
+          "client_name": "Hannah Brightwater",
           "method": "exact",
           "distance": 0,
           "score": 1
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:45.089Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:45.089Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -1812,30 +1812,30 @@
         "ts": "2026-07-16T12:23:45.089Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:45.089Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Brightwater_Hannah_M-2058_RecordsRequest_2026-07-11.pdf",
+          "renamed_to": "Brightwater_Hannah_M-2058_RecordsRequest_2026-07-11.pdf",
           "folder": "08 Records Requests",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "Forward to records clerk; log the request"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "Forward to records clerk; log the request"
         },
         "ts": "2026-07-16T12:23:45.089Z"
       },
       {
-        "runId": "run_L14_mrnhd5mc",
-        "letterId": "L14",
+        "run_id": "run_L14_mrnhd5mc",
+        "letter_id": "L14",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1845,8 +1845,8 @@
     ],
     "L15": [
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1854,24 +1854,24 @@
         "message": "SCAN_20260713_0012.pdf"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:45.089Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:45.089Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -1884,65 +1884,65 @@
           "input": 1093,
           "output": 78
         },
-        "durationMs": 1350,
+        "duration_ms": 1350,
         "ts": "2026-07-16T12:23:47.788Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "0mar Haddad",
+          "claimant_name": "0mar Haddad",
           "dob": "1979-02-16",
-          "ssnLast4": "3309",
-          "docDate": "2026-07-11"
+          "ssn_last4": "3309",
+          "doc_date": "2026-07-11"
         },
         "tokens": {
           "input": 783,
           "output": 52
         },
-        "durationMs": 1350,
+        "duration_ms": 1350,
         "ts": "2026-07-16T12:23:47.788Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:47.788Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c19",
-          "matterId": "M-2059",
-          "clientName": "Omar Haddad",
+          "client_id": "c19",
+          "matter_id": "M-2059",
+          "client_name": "Omar Haddad",
           "method": "fuzzy",
           "distance": 1,
           "score": 0.91
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:47.789Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:47.789Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -1953,30 +1953,30 @@
         "ts": "2026-07-16T12:23:47.789Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:47.789Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Haddad_Omar_M-2059_BenefitStatement_2026-07-11.pdf",
+          "renamed_to": "Haddad_Omar_M-2059_BenefitStatement_2026-07-11.pdf",
           "folder": "09 Financial",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "File to financial folder"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "File to financial folder"
         },
         "ts": "2026-07-16T12:23:47.789Z"
       },
       {
-        "runId": "run_L15_mrnhd7lt",
-        "letterId": "L15",
+        "run_id": "run_L15_mrnhd7lt",
+        "letter_id": "L15",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -1986,8 +1986,8 @@
     ],
     "L16": [
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -1995,24 +1995,24 @@
         "message": "SCAN_20260713_0029.pdf"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:47.789Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:47.789Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -2025,66 +2025,66 @@
           "input": 1108,
           "output": 65
         },
-        "durationMs": 1593,
+        "duration_ms": 1593,
         "ts": "2026-07-16T12:23:50.975Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Maria Gonzalez",
+          "claimant_name": "Maria Gonzalez",
           "dob": "1988-07-02",
-          "ssnLast4": "1190",
-          "docDate": "2026-07-11"
+          "ssn_last4": "1190",
+          "doc_date": "2026-07-11"
         },
         "tokens": {
           "input": 798,
           "output": 54
         },
-        "durationMs": 1593,
+        "duration_ms": 1593,
         "ts": "2026-07-16T12:23:50.975Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:50.975Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": true,
-          "clientId": "c02",
-          "matterId": "M-2042",
-          "clientName": "Maria Gonzales",
+          "client_id": "c02",
+          "matter_id": "M-2042",
+          "client_name": "Maria Gonzales",
           "method": "fuzzy+dob",
           "distance": 1,
           "score": 0.93,
           "note": "2 name candidates; DOB broke the tie"
         },
-        "durationMs": 1,
+        "duration_ms": 1,
         "ts": "2026-07-16T12:23:50.976Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:50.976Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -2095,30 +2095,30 @@
         "ts": "2026-07-16T12:23:50.976Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "route",
         "status": "start",
         "ts": "2026-07-16T12:23:50.976Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "route",
         "status": "complete",
         "payload": {
-          "renamedTo": "Gonzales_Maria_M-2042_HearingNotice_2026-07-11.pdf",
+          "renamed_to": "Gonzales_Maria_M-2042_HearingNotice_2026-07-11.pdf",
           "folder": "04 Hearings",
-          "archivedTo": "Archive/2026-07 (July)",
-          "followUp": "Calendar hearing date; notify claimant"
+          "archived_to": "Archive/2026-07 (July)",
+          "follow_up": "Calendar hearing date; notify claimant"
         },
         "ts": "2026-07-16T12:23:50.976Z"
       },
       {
-        "runId": "run_L16_mrnhd9ot",
-        "letterId": "L16",
+        "run_id": "run_L16_mrnhd9ot",
+        "letter_id": "L16",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -2128,8 +2128,8 @@
     ],
     "L17": [
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -2137,24 +2137,24 @@
         "message": "SCAN_20260714_0007.pdf"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:50.976Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:50.976Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -2167,66 +2167,66 @@
           "input": 1083,
           "output": 72
         },
-        "durationMs": 1482,
+        "duration_ms": 1482,
         "ts": "2026-07-16T12:23:53.939Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": "Zachary Ellsworth",
+          "claimant_name": "Zachary Ellsworth",
           "dob": "1990-04-03",
-          "ssnLast4": "0031",
-          "docDate": "2026-07-12"
+          "ssn_last4": "0031",
+          "doc_date": "2026-07-12"
         },
         "tokens": {
           "input": 773,
           "output": 55
         },
-        "durationMs": 1482,
+        "duration_ms": 1482,
         "ts": "2026-07-16T12:23:53.939Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:23:53.939Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": false,
-          "clientId": null,
-          "matterId": null,
-          "clientName": null,
+          "client_id": null,
+          "matter_id": null,
+          "client_name": null,
           "method": "none",
           "distance": 9,
           "score": 0.47,
           "note": "no client above match threshold"
         },
-        "durationMs": 0,
+        "duration_ms": 0,
         "ts": "2026-07-16T12:23:53.939Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:23:53.939Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -2237,8 +2237,8 @@
         "ts": "2026-07-16T12:23:53.939Z"
       },
       {
-        "runId": "run_L17_mrnhdc5c",
-        "letterId": "L17",
+        "run_id": "run_L17_mrnhdc5c",
+        "letter_id": "L17",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
@@ -2248,8 +2248,8 @@
     ],
     "L18": [
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "ingest",
         "status": "complete",
@@ -2257,24 +2257,24 @@
         "message": "SCAN_20260714_0021.pdf"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "classify",
         "status": "start",
         "ts": "2026-07-16T12:23:53.940Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "extract",
         "status": "start",
         "ts": "2026-07-16T12:23:53.940Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "classify",
         "status": "complete",
@@ -2287,66 +2287,66 @@
           "input": 1045,
           "output": 83
         },
-        "durationMs": 3460,
+        "duration_ms": 3460,
         "ts": "2026-07-16T12:24:00.859Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "extract",
         "status": "complete",
         "payload": {
-          "claimantName": null,
+          "claimant_name": null,
           "dob": null,
-          "ssnLast4": "5563",
-          "docDate": "2026-07-12"
+          "ssn_last4": "5563",
+          "doc_date": "2026-07-12"
         },
         "tokens": {
           "input": 735,
           "output": 41
         },
-        "durationMs": 3460,
+        "duration_ms": 3460,
         "ts": "2026-07-16T12:24:00.859Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "match",
         "status": "start",
         "ts": "2026-07-16T12:24:00.859Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "match",
         "status": "complete",
         "payload": {
           "matched": false,
-          "clientId": null,
-          "matterId": null,
-          "clientName": null,
+          "client_id": null,
+          "matter_id": null,
+          "client_name": null,
           "method": "none",
           "distance": null,
           "score": null,
           "note": "no claimant name extracted"
         },
-        "durationMs": 0,
+        "duration_ms": 0,
         "ts": "2026-07-16T12:24:00.859Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "gate",
         "status": "start",
         "ts": "2026-07-16T12:24:00.859Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "gate",
         "status": "complete",
@@ -2357,8 +2357,8 @@
         "ts": "2026-07-16T12:24:00.859Z"
       },
       {
-        "runId": "run_L18_mrnhdefo",
-        "letterId": "L18",
+        "run_id": "run_L18_mrnhdefo",
+        "letter_id": "L18",
         "mode": "recorded",
         "stage": "done",
         "status": "complete",
